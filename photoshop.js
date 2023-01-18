@@ -1,3 +1,7 @@
+// much of this code is inspired or provided by JJMack:
+// https://community.adobe.com/t5/photoshop-ecosystem-discussions/
+// batch-replace-smart-objects-v2/m-p/10324546/page/2#M227772
+
 var fs = require("fs");
 
 // activeDov is the Photoshop file
