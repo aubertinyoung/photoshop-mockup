@@ -12,4 +12,5 @@ Looking at your Photoshop Layers pane, the index starts from the top of the stac
 ## Useful resources
 
 This script comes from many discussions on the Adobe forum, and a special thanks to JJMack for lending his time and expertise.
+
 https://community.adobe.com/t5/photoshop-ecosystem-discussions/how-to-replace-image-on-layer-with-photoshop-script/m-p/12382409
