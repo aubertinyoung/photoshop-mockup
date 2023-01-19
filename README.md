@@ -1,6 +1,8 @@
 ## Requirements
 
-Photoshop must be installed and open. By default, the Photoshop file that will be updated is the one that is open and focused on. This script requires Extend Script, which is accessible in VSCOde through the vscode-to-Photoshop extension.
+Photoshop must be installed and open. By default, the Photoshop file that will be updated is the one that is open and focused on. This script requires Extend Script, which is accessible in VSCode through the vscode-to-Photoshop extension.
+
+https://marketplace.visualstudio.com/items?itemName=bialikover.vscode-to-photoshop
 
 ## How to use
 
