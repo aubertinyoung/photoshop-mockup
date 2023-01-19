@@ -1,11 +1,19 @@
+// variables to change
+
 // activeDov is the Photoshop file
 var activeDoc = app.activeDocument;
 
-// point to the Smart Object layer to update in the existing file
+// VARIABLES TO CHANGE //
+// Point to the Photoshop layer that is your SmartObject
 var smartObjLayer = activeDoc.layers[0];
-
-// point to the image to add to smartObjLayer
+if (smartObjLayer.kind != "LayerKind.SMARTOBJECT")
+  alert("Oops, that is not a Smart Object.");
+// Point to the file to add into the Smart Object.
+// If you have a folder with multiple images, you can loop through the folder and iteratively set imgPath to image[i],
+// where image is an array of images in your folder.
 var imgPath = "path/to/file";
+//
+
 var myFile = new File(imgPath);
 
 if (smartObjLayer.kind == "LayerKind.SMARTOBJECT") {
